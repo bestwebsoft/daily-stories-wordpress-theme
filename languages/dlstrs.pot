@@ -1,0 +1,202 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Daily Stories\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-11 12:38+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pae <bwsuapae@gmail.com>\n"
+"Language-Team: bestwebsoft <wp_theme@bestwebsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: single.php:18
+#: functions.php:264
+#: search.php:20
+#: index.php:20
+msgid "in"
+msgstr ""
+
+#: single.php:29
+#: image.php:35
+#: index.php:32
+#: page.php:24
+msgid "Pages:"
+msgstr ""
+
+#: single.php:45
+msgid "Previous post"
+msgstr ""
+
+#: single.php:48
+msgid "Next post"
+msgstr ""
+
+#: header.php:43
+msgid "Menu"
+msgstr ""
+
+#: header.php:45
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:20
+#: functions.php:249
+#: functions.php:265
+#: search.php:24
+#: index.php:23
+#: page.php:21
+msgid "Edit"
+msgstr ""
+
+#: image.php:42
+msgid "Previous"
+msgstr ""
+
+#: image.php:43
+msgid "Next"
+msgstr ""
+
+#: functions.php:49
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Right sidebar"
+msgstr ""
+
+#: functions.php:65
+msgid "Footer sidebar"
+msgstr ""
+
+#: functions.php:84
+msgid "Choose file"
+msgstr ""
+
+#: functions.php:85
+msgid "File is not selected."
+msgstr ""
+
+#: functions.php:111
+msgid "Home"
+msgstr ""
+
+#: functions.php:128
+#: functions.php:190
+#: functions.php:215
+msgid "Page"
+msgstr ""
+
+#: functions.php:142
+msgid "Category Archives:"
+msgstr ""
+
+#: functions.php:167
+msgid "Tag Archives:"
+msgstr ""
+
+#: functions.php:170
+#: functions.php:174
+#: functions.php:178
+msgid "Archive"
+msgstr ""
+
+#: functions.php:171
+msgid "Daily Archives:"
+msgstr ""
+
+#: functions.php:175
+msgid "Monthly Archives:"
+msgstr ""
+
+#: functions.php:179
+msgid "Yearly Archives:"
+msgstr ""
+
+#: functions.php:182
+msgid "Search Results"
+msgstr ""
+
+#: functions.php:192
+msgid "For:"
+msgstr ""
+
+#: functions.php:195
+msgid "404 Page"
+msgstr ""
+
+#: functions.php:196
+msgid "Page Not Found"
+msgstr ""
+
+#: functions.php:237
+msgid "read more"
+msgstr ""
+
+#: functions.php:249
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:261
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: 404.php:12
+#: search.php:40
+#: index.php:59
+msgid "Nothing Found"
+msgstr ""
+
+#: 404.php:15
+msgid "The page you are looking for is not found. Maybe try a search?"
+msgstr ""
+
+#: footer.php:29
+msgid "Designed with love by"
+msgstr ""
+
+#: footer.php:29
+msgid "and"
+msgstr ""
+
+#: index.php:49
+msgid "Previous posts"
+msgstr ""
+
+#: index.php:52
+msgid "Next posts"
+msgstr ""
+
+#: comments.php:14
+msgid "One thought on"
+msgstr ""
+
+#: comments.php:14
+msgid "thoughts on"
+msgstr ""
+
+#: comments.php:18
+#: comments.php:29
+msgid "Previous comments"
+msgstr ""
+
+#: comments.php:20
+#: comments.php:31
+msgid "Next comments"
+msgstr ""
+
+#: comments.php:36
+msgid "Comments are closed."
+msgstr ""
+
