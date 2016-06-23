@@ -3,25 +3,30 @@
  * The template page
  *
  * @subpackage Daily Stories
- * @since Daily Stories 1.0
+ * @since      Daily Stories 1.0
  */
 get_header(); ?>
 	<div class="dlstrs-content">
-		<?php if ( have_posts() ) { the_post(); ?>
+		<?php if ( have_posts() ) {
+			the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class( 'dlstrs-post' ); ?>>
 				<header class="entry-header">
 					<h1 class="dlstrs-title">
-						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+						<?php if ( ! is_singular() ) { ?>
+							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+						<?php } else {
+							the_title();
+						} ?>
 					</h1><!--.dlstrs-title-->
 				</header><!--.entry-header-->
 				<div class="entry-content">
 					<?php the_content(); ?>
 				</div><!--.entry-content-->
 				<footer class="entry-meta">
-					<?php edit_post_link( __( 'Edit', 'dlstrs' ), '<span class="dlstrs-edit-link">', '</span>' ); ?>
+					<?php edit_post_link( __( 'Edit', 'daily-stories' ), '<span class="dlstrs-edit-link">', '</span>' ); ?>
 				</footer><!--.entry-meta-->
 				<?php wp_link_pages( array(
-					'before'      => '<div class="dlstrs-page-links"><span class="dlstrs-page-links-title">' . __( 'Pages:', 'dlstrs' ) . '</span>',
+					'before'      => '<div class="dlstrs-page-links"><span class="dlstrs-page-links-title">' . __( 'Pages:', 'daily-stories' ) . '</span>',
 					'after'       => '</div>',
 					'link_before' => '<span>',
 					'link_after'  => '</span>',

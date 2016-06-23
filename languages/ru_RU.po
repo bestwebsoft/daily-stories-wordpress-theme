@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Daily Stories\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-11 12:37+0300\n"
+"POT-Creation-Date: 2015-03-06 13:35+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
+"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
 "Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -21,132 +21,6 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: single.php:18 functions.php:264 search.php:20 index.php:20
-msgid "in"
-msgstr "в"
-
-#: single.php:29 image.php:35 index.php:32 page.php:24
-msgid "Pages:"
-msgstr "Страницы:"
-
-#: single.php:45
-msgid "Previous post"
-msgstr "Предыдущий пост"
-
-#: single.php:48
-msgid "Next post"
-msgstr "Следующий пост"
-
-#: header.php:43
-msgid "Menu"
-msgstr "Меню"
-
-#: header.php:45
-msgid "Skip to content"
-msgstr "Перейти к контенту"
-
-#: image.php:20 functions.php:249 functions.php:265 search.php:24 index.php:23
-#: page.php:21
-msgid "Edit"
-msgstr "Редактировать"
-
-#: image.php:42
-msgid "Previous"
-msgstr "Предыдущий"
-
-#: image.php:43
-msgid "Next"
-msgstr "Следующий"
-
-#: functions.php:49
-msgid "Header Menu"
-msgstr "Меню в хедере"
-
-#: functions.php:57
-msgid "Right sidebar"
-msgstr "Правый сайдбар"
-
-#: functions.php:65
-msgid "Footer sidebar"
-msgstr "Нижний сайдбар"
-
-#: functions.php:84
-msgid "Choose file"
-msgstr "Выбрать файл"
-
-#: functions.php:85
-msgid "File is not selected."
-msgstr "Файл не выбран."
-
-#: functions.php:111
-msgid "Home"
-msgstr "Главная"
-
-#: functions.php:128 functions.php:190 functions.php:215
-msgid "Page"
-msgstr "Страница"
-
-#: functions.php:142
-msgid "Category Archives:"
-msgstr "Архив категорий:"
-
-#: functions.php:167
-msgid "Tag Archives:"
-msgstr "Архив тегов:"
-
-#: functions.php:170 functions.php:174 functions.php:178
-msgid "Archive"
-msgstr "Архив"
-
-#: functions.php:171
-msgid "Daily Archives:"
-msgstr "Архив за день:"
-
-#: functions.php:175
-msgid "Monthly Archives:"
-msgstr "Архив за месяц:"
-
-#: functions.php:179
-msgid "Yearly Archives:"
-msgstr "Архив за год:"
-
-#: functions.php:182
-msgid "Search Results"
-msgstr "Результаты поиска"
-
-#: functions.php:192
-msgid "For:"
-msgstr "Для: "
-
-#: functions.php:195
-msgid "404 Page"
-msgstr "Страница 404"
-
-#: functions.php:196
-msgid "Page Not Found"
-msgstr "Страница не найдена"
-
-#: functions.php:237
-msgid "read more"
-msgstr "Читать далее"
-
-#: functions.php:249
-msgid "Pingback:"
-msgstr "Пингбеки:"
-
-#: functions.php:261
-msgid "Your comment is awaiting moderation"
-msgstr "Ваш комментарий ожидает проверки"
-
-#: 404.php:12 search.php:40 index.php:59
-msgid "Nothing Found"
-msgstr "Ничего не найдено"
-
-#: 404.php:15
-msgid "The page you are looking for is not found. Maybe try a search?"
-msgstr ""
-"Запрашиваемая страница не найдена. Попробуйте воспользоваться поиском. "
-
 #: footer.php:29
 msgid "Designed with love by"
 msgstr "Сделано с любовью"
@@ -155,6 +29,99 @@ msgstr "Сделано с любовью"
 msgid "and"
 msgstr "и"
 
+#: functions.php:70
+msgid "Header Menu"
+msgstr "Меню в хедере"
+
+#: functions.php:78
+msgid "Right sidebar"
+msgstr "Правый сайдбар"
+
+#: functions.php:86
+msgid "Footer sidebar"
+msgstr "Нижний сайдбар"
+
+#: functions.php:105
+msgid "Choose file"
+msgstr "Выбрать файл"
+
+#: functions.php:106
+msgid "File is not selected."
+msgstr "Файл не выбран."
+
+#: functions.php:132
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:149 functions.php:211 functions.php:235
+msgid "Page"
+msgstr "Страница"
+
+#: functions.php:163
+msgid "Category Archives:"
+msgstr "Архив категорий:"
+
+#: functions.php:188
+msgid "Tag Archives:"
+msgstr "Архив тегов:"
+
+#: functions.php:191 functions.php:195 functions.php:199
+msgid "Archive"
+msgstr "Архив"
+
+#: functions.php:192
+msgid "Daily Archives:"
+msgstr "Архив за день:"
+
+#: functions.php:196
+msgid "Monthly Archives:"
+msgstr "Архив за месяц:"
+
+#: functions.php:200
+msgid "Yearly Archives:"
+msgstr "Архив за год:"
+
+#: functions.php:203
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: functions.php:213
+msgid "For:"
+msgstr "Для: "
+
+#: functions.php:216
+msgid "404 Page"
+msgstr "Страница 404"
+
+#: functions.php:217
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: functions.php:257
+msgid "read more"
+msgstr "Читать далее"
+
+#: functions.php:269
+msgid "Pingback:"
+msgstr "Пингбеки:"
+
+#: functions.php:269 functions.php:285 index.php:23 image.php:20 page.php:21
+#: search.php:24
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:281
+msgid "Your comment is awaiting moderation"
+msgstr "Ваш комментарий ожидает проверки"
+
+#: functions.php:284 index.php:20 single.php:18 search.php:20
+msgid "in"
+msgstr "в"
+
+#: index.php:32 image.php:35 single.php:29 page.php:24
+msgid "Pages:"
+msgstr "Страницы:"
+
 #: index.php:49
 msgid "Previous posts"
 msgstr "Предыдущие посты"
@@ -162,6 +129,10 @@ msgstr "Предыдущие посты"
 #: index.php:52
 msgid "Next posts"
 msgstr "Следующие посты"
+
+#: index.php:59 404.php:12 search.php:40
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
 
 #: comments.php:14
 msgid "One thought on"
@@ -182,3 +153,32 @@ msgstr "Следующие комментарии"
 #: comments.php:36
 msgid "Comments are closed."
 msgstr "Комментарии отключены. "
+
+#: image.php:42
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: image.php:43
+msgid "Next"
+msgstr "Следующий"
+
+#: single.php:45
+msgid "Previous post"
+msgstr "Предыдущий пост"
+
+#: single.php:48
+msgid "Next post"
+msgstr "Следующий пост"
+
+#: 404.php:15
+msgid "The page you are looking for is not found. Maybe try a search?"
+msgstr ""
+"Запрашиваемая страница не найдена. Попробуйте воспользоваться поиском. "
+
+#: header.php:46
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:48
+msgid "Skip to content"
+msgstr "Перейти к контенту"
