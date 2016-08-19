@@ -1,146 +1,43 @@
-# WordPress Blank Pot
-# Copyright (C) 2014 ...
-# This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Daily Stories\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-06 13:35+0300\n"
+"Project-Id-Version: Daily Stories v1.5\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-19 17:08+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
-"Language: ru_RU\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: ../\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: footer.php:29
-msgid "Designed with love by"
-msgstr "Сделано с любовью"
-
-#: footer.php:29
-msgid "and"
-msgstr "и"
-
-#: functions.php:70
-msgid "Header Menu"
-msgstr "Меню в хедере"
-
-#: functions.php:78
-msgid "Right sidebar"
-msgstr "Правый сайдбар"
-
-#: functions.php:86
-msgid "Footer sidebar"
-msgstr "Нижний сайдбар"
-
-#: functions.php:105
-msgid "Choose file"
-msgstr "Выбрать файл"
-
-#: functions.php:106
-msgid "File is not selected."
-msgstr "Файл не выбран."
-
-#: functions.php:132
-msgid "Home"
-msgstr "Главная"
-
-#: functions.php:149 functions.php:211 functions.php:235
-msgid "Page"
-msgstr "Страница"
-
-#: functions.php:163
-msgid "Category Archives:"
-msgstr "Архив категорий:"
-
-#: functions.php:188
-msgid "Tag Archives:"
-msgstr "Архив тегов:"
-
-#: functions.php:191 functions.php:195 functions.php:199
-msgid "Archive"
-msgstr "Архив"
-
-#: functions.php:192
-msgid "Daily Archives:"
-msgstr "Архив за день:"
-
-#: functions.php:196
-msgid "Monthly Archives:"
-msgstr "Архив за месяц:"
-
-#: functions.php:200
-msgid "Yearly Archives:"
-msgstr "Архив за год:"
-
-#: functions.php:203
-msgid "Search Results"
-msgstr "Результаты поиска"
-
-#: functions.php:213
-msgid "For:"
-msgstr "Для: "
-
-#: functions.php:216
-msgid "404 Page"
-msgstr "Страница 404"
-
-#: functions.php:217
-msgid "Page Not Found"
-msgstr "Страница не найдена"
-
-#: functions.php:257
-msgid "read more"
-msgstr "Читать далее"
-
-#: functions.php:269
-msgid "Pingback:"
-msgstr "Пингбеки:"
-
-#: functions.php:269 functions.php:285 index.php:23 image.php:20 page.php:21
-#: search.php:24
-msgid "Edit"
-msgstr "Редактировать"
-
-#: functions.php:281
-msgid "Your comment is awaiting moderation"
-msgstr "Ваш комментарий ожидает проверки"
-
-#: functions.php:284 index.php:20 single.php:18 search.php:20
-msgid "in"
-msgstr "в"
-
-#: index.php:32 image.php:35 single.php:29 page.php:24
-msgid "Pages:"
-msgstr "Страницы:"
-
-#: index.php:49
-msgid "Previous posts"
-msgstr "Предыдущие посты"
-
-#: index.php:52
-msgid "Next posts"
-msgstr "Следующие посты"
-
-#: index.php:59 404.php:12 search.php:40
+#: 404.php:12 index.php:63 search.php:45
 msgid "Nothing Found"
 msgstr "Ничего не найдено"
 
-#: comments.php:14
-msgid "One thought on"
-msgstr "Один комментарий к"
+#: 404.php:15
+msgid "The page you are looking for is not found. Maybe try a search?"
+msgstr ""
+"Запрашиваемая страница не найдена. Попробуйте воспользоваться поиском. "
 
 #: comments.php:14
-msgid "thoughts on"
-msgstr "комментариев к"
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментария к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к &ldquo;%2$s&rdquo;"
 
 #: comments.php:18 comments.php:29
 msgid "Previous comments"
@@ -154,31 +51,148 @@ msgstr "Следующие комментарии"
 msgid "Comments are closed."
 msgstr "Комментарии отключены. "
 
-#: image.php:42
-msgid "Previous"
-msgstr "Предыдущий"
+#: footer.php:22
+msgid "Designed with love by"
+msgstr "Сделано с любовью"
 
-#: image.php:43
-msgid "Next"
-msgstr "Следующий"
+#: footer.php:23
+msgid "and"
+msgstr "и"
 
-#: single.php:45
-msgid "Previous post"
-msgstr "Предыдущий пост"
+#: functions.php:44
+msgid "Header Menu"
+msgstr "Меню в хедере"
 
-#: single.php:48
-msgid "Next post"
-msgstr "Следующий пост"
+#: functions.php:53
+msgid "Right sidebar"
+msgstr "Правый сайдбар"
 
-#: 404.php:15
-msgid "The page you are looking for is not found. Maybe try a search?"
-msgstr ""
-"Запрашиваемая страница не найдена. Попробуйте воспользоваться поиском. "
+#: functions.php:61
+msgid "Footer sidebar"
+msgstr "Нижний сайдбар"
 
-#: header.php:46
+#: functions.php:84
+msgid "Choose file"
+msgstr "Выбрать файл"
+
+#: functions.php:85
+msgid "File is not selected."
+msgstr "Файл не выбран."
+
+#: functions.php:112
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:130
+msgid "Category Archives:"
+msgstr "Архив категорий:"
+
+#: functions.php:150
+msgid "Tag Archives:"
+msgstr "Архив тегов:"
+
+#: functions.php:152 functions.php:156 functions.php:160
+msgid "Archive"
+msgstr "Архив"
+
+#: functions.php:153
+msgid "Daily Archives:"
+msgstr "Архив за день:"
+
+#: functions.php:157
+msgid "Monthly Archives:"
+msgstr "Архив за месяц:"
+
+#: functions.php:161
+msgid "Yearly Archives:"
+msgstr "Архив за год:"
+
+#: functions.php:164
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: functions.php:165
+msgid "Search results for:"
+msgstr "Результаты поиска для:"
+
+#: functions.php:167
+msgid "404 Page"
+msgstr "Страница 404"
+
+#: functions.php:168
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: functions.php:194
+msgid "read more"
+msgstr "Читать далее"
+
+#: functions.php:208
+msgid "Pingback:"
+msgstr "Пингбеки:"
+
+#: functions.php:208 functions.php:224 image.php:21 index.php:28
+#: page.php:22 search.php:30
+msgid "Edit"
+msgstr "Редактировать"
+
+#: functions.php:220
+msgid "Your comment is awaiting moderation"
+msgstr "Ваш комментарий ожидает проверки"
+
+#: functions.php:223 index.php:23 search.php:24 single.php:22
+msgid "in"
+msgstr "в"
+
+#: header.php:43
 msgid "Menu"
 msgstr "Меню"
 
-#: header.php:48
+#: header.php:45
 msgid "Skip to content"
 msgstr "Перейти к контенту"
+
+#: image.php:36 index.php:37 page.php:25 single.php:35
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: image.php:43
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: image.php:44
+msgid "Next"
+msgstr "Следующий"
+
+#: index.php:54
+msgid "Previous posts"
+msgstr "Предыдущие посты"
+
+#: index.php:57
+msgid "Next posts"
+msgstr "Следующие посты"
+
+#: searchform.php:10
+#, fuzzy
+msgid "Enter search keyword"
+msgstr "Введите ключевое слово"
+
+#: single.php:51
+msgid "Previous post"
+msgstr "Предыдущий пост"
+
+#: single.php:54
+msgid "Next post"
+msgstr "Следующий пост"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "For:"
+#~ msgstr "Для: "
+
+#~ msgid "One thought on"
+#~ msgstr "Один комментарий к"
+
+#~ msgid "thoughts on"
+#~ msgstr "комментариев к"

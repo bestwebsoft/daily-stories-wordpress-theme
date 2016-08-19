@@ -9,20 +9,14 @@
 <div class="clear"></div><!--.clear-->
 </div> <!-- .dlstrs-container -->
 <footer class="dlstrs-site-footer">
-	<div class="dlstrs-sidebarfooter">
-		<div class="dlstrs-containers-of-widgets">
-			<?php if ( is_active_sidebar( 'footer_sidebar' ) ) {
-				dynamic_sidebar( 'footer_sidebar' );
-			} else { ?>
-				<style>
-					.dlstrs-sidebarfooter {
-						display: none;
-					}
-				</style>
-			<?php } ?>
-			<div class="clear"></div><!--.clear-->
-		</div><!-- .dlstrs-containers-of-widgets -->
-	</div><!-- .dlstrs-sidebarfooter -->
+	<?php if ( is_active_sidebar( 'footer_sidebar' ) ) { ?>
+		<div class="dlstrs-sidebarfooter">
+			<div class="dlstrs-containers-of-widgets">
+				<?php dynamic_sidebar( 'footer_sidebar' ); ?>
+				<div class="clear"></div><!--.clear-->
+			</div><!-- .dlstrs-containers-of-widgets -->
+		</div><!-- .dlstrs-sidebarfooter -->
+	<?php } ?>
 	<div class="dlstrs-bottom">
 		<div class="dlstrs-copyright">
 			<p><?php echo __( 'Designed with love by', 'daily-stories' ) . '&nbsp;'; ?>

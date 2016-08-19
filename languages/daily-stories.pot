@@ -1,146 +1,41 @@
-# WordPress Blank Pot
-# Copyright (C) 2014 ...
-# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Daily Stories\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-06 13:35+0300\n"
+"Project-Id-Version: Daily Stories v1.5\n"
+"POT-Creation-Date: 2016-08-19 17:08+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: plugin@bestwebsoft.com <plugin@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft <wp_theme@bestwebsoft.com>\n"
-"Language: en\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: ../\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: footer.php:29
-msgid "Designed with love by"
-msgstr ""
-
-#: footer.php:29
-msgid "and"
-msgstr ""
-
-#: functions.php:70
-msgid "Header Menu"
-msgstr ""
-
-#: functions.php:78
-msgid "Right sidebar"
-msgstr ""
-
-#: functions.php:86
-msgid "Footer sidebar"
-msgstr ""
-
-#: functions.php:105
-msgid "Choose file"
-msgstr ""
-
-#: functions.php:106
-msgid "File is not selected."
-msgstr ""
-
-#: functions.php:132
-msgid "Home"
-msgstr ""
-
-#: functions.php:149 functions.php:211 functions.php:235
-msgid "Page"
-msgstr ""
-
-#: functions.php:163
-msgid "Category Archives:"
-msgstr ""
-
-#: functions.php:188
-msgid "Tag Archives:"
-msgstr ""
-
-#: functions.php:191 functions.php:195 functions.php:199
-msgid "Archive"
-msgstr ""
-
-#: functions.php:192
-msgid "Daily Archives:"
-msgstr ""
-
-#: functions.php:196
-msgid "Monthly Archives:"
-msgstr ""
-
-#: functions.php:200
-msgid "Yearly Archives:"
-msgstr ""
-
-#: functions.php:203
-msgid "Search Results"
-msgstr ""
-
-#: functions.php:213
-msgid "For:"
-msgstr ""
-
-#: functions.php:216
-msgid "404 Page"
-msgstr ""
-
-#: functions.php:217
-msgid "Page Not Found"
-msgstr ""
-
-#: functions.php:257
-msgid "read more"
-msgstr ""
-
-#: functions.php:269
-msgid "Pingback:"
-msgstr ""
-
-#: functions.php:269 functions.php:285 index.php:23 image.php:20 page.php:21
-#: search.php:24
-msgid "Edit"
-msgstr ""
-
-#: functions.php:281
-msgid "Your comment is awaiting moderation"
-msgstr ""
-
-#: functions.php:284 index.php:20 single.php:18 search.php:20
-msgid "in"
-msgstr ""
-
-#: index.php:32 image.php:35 single.php:29 page.php:24
-msgid "Pages:"
-msgstr ""
-
-#: index.php:49
-msgid "Previous posts"
-msgstr ""
-
-#: index.php:52
-msgid "Next posts"
-msgstr ""
-
-#: index.php:59 404.php:12 search.php:40
+#: 404.php:12 index.php:63 search.php:45
 msgid "Nothing Found"
 msgstr ""
 
-#: comments.php:14
-msgid "One thought on"
+#: 404.php:15
+msgid "The page you are looking for is not found. Maybe try a search?"
 msgstr ""
 
 #: comments.php:14
-msgid "thoughts on"
-msgstr ""
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
 
 #: comments.php:18 comments.php:29
 msgid "Previous comments"
@@ -154,30 +49,135 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: image.php:42
-msgid "Previous"
+#: footer.php:22
+msgid "Designed with love by"
 msgstr ""
 
-#: image.php:43
-msgid "Next"
+#: footer.php:23
+msgid "and"
 msgstr ""
 
-#: single.php:45
-msgid "Previous post"
+#: functions.php:44
+msgid "Header Menu"
 msgstr ""
 
-#: single.php:48
-msgid "Next post"
+#: functions.php:53
+msgid "Right sidebar"
 msgstr ""
 
-#: 404.php:15
-msgid "The page you are looking for is not found. Maybe try a search?"
+#: functions.php:61
+msgid "Footer sidebar"
 msgstr ""
 
-#: header.php:46
+#: functions.php:84
+msgid "Choose file"
+msgstr ""
+
+#: functions.php:85
+msgid "File is not selected."
+msgstr ""
+
+#: functions.php:112
+msgid "Home"
+msgstr ""
+
+#: functions.php:130
+msgid "Category Archives:"
+msgstr ""
+
+#: functions.php:150
+msgid "Tag Archives:"
+msgstr ""
+
+#: functions.php:152 functions.php:156 functions.php:160
+msgid "Archive"
+msgstr ""
+
+#: functions.php:153
+msgid "Daily Archives:"
+msgstr ""
+
+#: functions.php:157
+msgid "Monthly Archives:"
+msgstr ""
+
+#: functions.php:161
+msgid "Yearly Archives:"
+msgstr ""
+
+#: functions.php:164
+msgid "Search Results"
+msgstr ""
+
+#: functions.php:165
+msgid "Search results for:"
+msgstr ""
+
+#: functions.php:167
+msgid "404 Page"
+msgstr ""
+
+#: functions.php:168
+msgid "Page Not Found"
+msgstr ""
+
+#: functions.php:194
+msgid "read more"
+msgstr ""
+
+#: functions.php:208
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:208 functions.php:224 image.php:21 index.php:28
+#: page.php:22 search.php:30
+msgid "Edit"
+msgstr ""
+
+#: functions.php:220
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: functions.php:223 index.php:23 search.php:24 single.php:22
+msgid "in"
+msgstr ""
+
+#: header.php:43
 msgid "Menu"
 msgstr ""
 
-#: header.php:48
+#: header.php:45
 msgid "Skip to content"
+msgstr ""
+
+#: image.php:36 index.php:37 page.php:25 single.php:35
+msgid "Pages:"
+msgstr ""
+
+#: image.php:43
+msgid "Previous"
+msgstr ""
+
+#: image.php:44
+msgid "Next"
+msgstr ""
+
+#: index.php:54
+msgid "Previous posts"
+msgstr ""
+
+#: index.php:57
+msgid "Next posts"
+msgstr ""
+
+#: searchform.php:10
+msgid "Enter search keyword"
+msgstr ""
+
+#: single.php:51
+msgid "Previous post"
+msgstr ""
+
+#: single.php:54
+msgid "Next post"
 msgstr ""

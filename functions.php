@@ -41,13 +41,6 @@ function dlstrs_setup() {
 	add_image_size( 'dlstrs_featured_image', 752, 495 ); // size for posts thumbnail
 	add_editor_style();
 	add_theme_support( 'title-tag' );
-}
-
-/**
- * Register nav_menu
- *
- */
-function dlstrs_register_nav_menu() {
 	register_nav_menu( 'header-menu', __( 'Header Menu', 'daily-stories' ) );
 }
 
@@ -82,6 +75,7 @@ function dlstrs_style_scripts() {
 	wp_enqueue_style( 'dlstrs_style', get_stylesheet_uri() );
 	wp_enqueue_script( 'dlstrs_script', get_template_directory_uri() . '/js/scripts.js', array( 'jquery' ), true );
 	wp_enqueue_script( 'dlstrs_html5', get_template_directory_uri() . '/js/html5shiv.js', array( 'jquery' ), true );
+	wp_script_add_data( 'dlstrs_html5', 'conditional', 'lt IE 9' );
 	if ( is_singular() ) {
 		wp_enqueue_script( 'comment-reply' );
 	} // including scripts for comments reply
@@ -335,7 +329,6 @@ function dlstrs_header_style() {
 <?php }
 
 add_action( 'after_setup_theme', 'dlstrs_setup' );
-add_action( 'init', 'dlstrs_register_nav_menu' );
 add_action( 'widgets_init', 'dlstrs_register_sidebar' );
 add_action( 'wp_enqueue_scripts', 'dlstrs_style_scripts' );
 add_action( 'dlstrs_the_breadcrumbs', 'dlstrs_the_breadcrumbs' );

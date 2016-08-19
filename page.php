@@ -12,11 +12,7 @@ get_header(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class( 'dlstrs-post' ); ?>>
 				<header class="entry-header">
 					<h1 class="dlstrs-title">
-						<?php if ( ! is_singular() ) { ?>
-							<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-						<?php } else {
-							the_title();
-						} ?>
+						<?php the_title(); ?>
 					</h1><!--.dlstrs-title-->
 				</header><!--.entry-header-->
 				<div class="entry-content">

@@ -1,11 +1,11 @@
 === Daily Stories ===
 Contributors: BestWebLayout, BestWebSoft
 Author URI: http://bestweblayout.com/
-Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Donate link: http://bestwebsoft.com/donate/
 Tags: two-columns, right-sidebar, threaded-comments, sticky-post, custom-header, custom-background, custom-menu, translation-ready, featured-images, editor-style, footer-widgets
 Requires at least: 4.2
-Tested up to: 4.5.3
-Stable tag: 1.4
+Tested up to: 4.6
+Stable tag: 1.5
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Daily Stories WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -95,7 +95,7 @@ Installation using "Add New Theme"
 
 4. Click 'Install' button.
 
-Activiation and Use
+Activation and Use
 
 1. Activate the Theme through 'Themes' menu in WordPress.
 
@@ -129,6 +129,9 @@ Change the language in the admin settings screen. Settings > General > Site Lang
 
 == Changelog ==
 
+= V1.5 - 19.08.2016 =
+* Update : All functionality for WordPress 4.6 was updated.
+
 = v1.4 - 23.06.2016 =
 * Bugfix: Fixed mismatch coding standards.
 * Bugfix: Fixed theme styles.
@@ -154,6 +157,9 @@ Change the language in the admin settings screen. Settings > General > Site Lang
 * Release of Daily Stories theme.
 
 == Upgrade Notice ==
+
+= V1.5 =
+* The compatibility with new WordPress version updated.
 
 = V1.4 =
 Fixed mismatch coding standards. Fixed theme styles. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.

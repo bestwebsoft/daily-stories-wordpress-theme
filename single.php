@@ -11,19 +11,17 @@ get_header(); ?>
 			the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class( 'dlstrs-post' ); ?>>
 				<h1 class="dlstrs-title">
-					<?php if ( ! is_singular() ) { ?>
-						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-					<?php } else {
-						the_title();
-					} ?>
+					<?php the_title(); ?>
 				</h1><!--.dlstrs-title-->
 				<div class="dlstrs-data-categ">
 					<div class="dlstrs-data">
-						<a href="<?php the_permalink(); ?>"><?php the_time( get_option( 'date_format' ) ); ?></a>
+						<a href="<?php echo esc_url( get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) ) ); ?>" title="<?php the_title_attribute(); ?>"><?php echo get_the_date(); ?></a>
 					</div><!--.dlstrs-data-->
 					<?php if ( has_category() ) { ?>
-						<div class="dlstrs-category"><em><?php printf( __( 'in', 'daily-stories' ) . '&nbsp;' );
-								the_category( ', ' ); ?></em></div><!--.dlstrs-category-->
+						<div class="dlstrs-category">
+							<em><?php echo __( 'in', 'daily-stories' ) . '&nbsp;';
+								the_category( ', ' ); ?></em>
+						</div><!--.dlstrs-category-->
 					<?php } ?>
 				</div><!--.dlstrs-data-categ-->
 				<?php if ( has_post_thumbnail() ) { ?>
