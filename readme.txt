@@ -3,9 +3,9 @@ Contributors: BestWebLayout, BestWebSoft
 Author URI: http://bestweblayout.com/
 Donate link: http://bestwebsoft.com/donate/
 Tags: two-columns, right-sidebar, threaded-comments, sticky-post, custom-header, custom-background, custom-menu, translation-ready, featured-images, editor-style, footer-widgets
-Requires at least: 4.2
-Tested up to: 4.6
-Stable tag: 1.5
+Requires at least: 4.3
+Tested up to: 4.6.1
+Stable tag: 1.6
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Daily Stories WordPress Theme, Copyright 2016 BestWebLayout.com
@@ -129,6 +129,9 @@ Change the language in the admin settings screen. Settings > General > Site Lang
 
 == Changelog ==
 
+= V1.6 - 27.09.2016 =
+* Update: All functionality for WordPress 4.6.1 was updated.
+
 = V1.5 - 19.08.2016 =
 * Update : All functionality for WordPress 4.6 was updated.
 
@@ -157,6 +160,9 @@ Change the language in the admin settings screen. Settings > General > Site Lang
 * Release of Daily Stories theme.
 
 == Upgrade Notice ==
+
+= V1.6 =
+All functionality for WordPress 4.6.1 was updated.
 
 = V1.5 =
 * The compatibility with new WordPress version updated.
